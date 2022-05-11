@@ -1,0 +1,8 @@
+"trigger_id","source_catalog_name","source_schema_name","source_table_name","channel_id","reload_channel_id","sync_on_update","sync_on_insert","sync_on_delete","sync_on_incoming_batch","name_for_update_trigger","name_for_insert_trigger","name_for_delete_trigger","sync_on_update_condition","sync_on_insert_condition","sync_on_delete_condition","custom_before_update_text","custom_before_insert_text","custom_before_delete_text","custom_on_update_text","custom_on_insert_text","custom_on_delete_text","external_select","tx_id_expression","channel_expression","excluded_column_names","included_column_names","sync_key_names","use_stream_lobs","use_capture_lobs","use_capture_old_data","use_handle_key_updates","stream_row","create_time","last_update_by","last_update_time","description"
+sale_transaction,,,sale_transaction,sale_transaction,reload,1,1,1,0,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_transaction_corp,,,sale_transaction,sale_transaction,reload,0,0,0,0,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_return_line_item_corp,,,sale_return_line_item,sale_transaction,reload,0,0,0,0,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+item,,,item,item,reload,1,1,1,0,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_return_line_item,,,sale_return_line_item,sale_transaction,reload,1,1,1,1,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+item_selling_price,,,item_selling_price,item,reload,1,1,1,1,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_transaction-store,,,sale_transaction,sale_transaction-corp,reload,1,1,1,0,,,,,,,,,,,,,,,,,,,0,0,1,1,0,2022-05-11 18:58:31,,2022-05-11 18:58:31,

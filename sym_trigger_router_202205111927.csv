@@ -1,0 +1,8 @@
+"trigger_id","router_id","enabled","initial_load_order","initial_load_select","initial_load_delete_stmt","ping_back_enabled","create_time","last_update_by","last_update_time","description"
+item,corp_2_store,1,100,,,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+item_selling_price,corp_2_one_store,1,100,store_id='$(externalId)',,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_transaction,store_2_corp,1,200,,,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_return_line_item,store_2_corp,1,200,,,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_transaction_corp,corp_2_store,1,200,,,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_return_line_item_corp,corp_2_store,1,200,,,0,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+sale_transaction-store,store_2_corp,1,200,,,0,2022-05-11 18:58:31,,2022-05-11 18:58:31,

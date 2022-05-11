@@ -1,0 +1,4 @@
+"router_id","target_catalog_name","target_schema_name","target_table_name","source_node_group_id","target_node_group_id","router_type","router_expression","sync_on_update","sync_on_insert","sync_on_delete","use_source_catalog_schema","create_time","last_update_by","last_update_time","description"
+corp_2_store,,,,corp,store,default,,1,1,1,1,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+corp_2_one_store,,,,corp,store,column,STORE_ID=:EXTERNAL_ID or OLD_STORE_ID=:EXTERNAL_ID,1,1,1,1,2022-05-10 13:41:34,,2022-05-10 13:41:34,
+store_2_corp,,,,store,corp,default,STORE_ID=:EXTERNAL_ID or OLD_STORE_ID=:EXTERNAL_ID,1,1,1,1,2022-05-10 13:41:34,,2022-05-10 13:41:34,
